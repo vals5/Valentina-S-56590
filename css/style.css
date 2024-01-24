@@ -1,0 +1,113 @@
+@font-face {
+    font-family: principal;
+    src: url(../font/Relington.otf)
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: principal;
+}
+
+nav li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.nav-header:hover {
+    color: pink;
+    font-size: 2.6rem;
+}
+
+h1 {
+    color: white;
+    font-family: principal;
+    font-size: 65px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-family: principal;
+    font-size: 40px;
+}
+
+body {
+    background-color: black;
+}
+
+table {
+    color: white;
+    font-family: principal;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 40px;
+}
+
+
+td {
+    color: white;
+    font-family: principal;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links:hover  {
+    color: pink;
+    font-size: 2.6rem;
+}
+
+.fondo-entradas {
+    display: block;    
+    padding-left: 350px;
+    justify-content: center;
+}
+
+form {
+    color: white;
+    font-family: principal;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* No entiendo porque se me rompio este responsive :( */
+
+.fondo-novedades {
+    display: block;     
+   }
+
+@media only screen and (min-width: 320px)  {
+
+    .fondo-novedades{
+        width: 100%;
+        justify-content: center;
+    }
+    
+}
+
+footer {
+    color: white;
+    font-family: principal;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
